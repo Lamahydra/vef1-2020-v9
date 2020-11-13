@@ -1,6 +1,8 @@
 import L from 'leaflet';
 
 let map;
+var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+console.log("herro");
 
 // Býr til popup á korti út frá geojson með content
 export function createPopup(geojson, content) {
